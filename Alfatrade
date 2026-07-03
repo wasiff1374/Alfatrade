@@ -1,0 +1,82 @@
+index.html*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#222;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#0d6efd,#3b82f6);
+    color:white;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:white;
+    color:#0d6efd;
+    padding:15px 30px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:60px 10%;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    width:300px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
